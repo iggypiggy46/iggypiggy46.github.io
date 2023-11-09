@@ -1,6 +1,8 @@
+@import "https://unpkg.com/open-props";
+
 /* diagnostic styling */
 * {
-    outline: 3px solid aquamarine;
+    outline: 2px solid rgb(37, 156, 236);
   }
   
   /* layout */
@@ -9,6 +11,8 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: 'Satoshi', sans-serif;
+    align-items: center;
   }
   
   /* scene */
@@ -44,7 +48,8 @@
   }
   
   .front {
-    background: skyblue;
+    background-image: var(--gradient-19);
+
   }
   
   .back {

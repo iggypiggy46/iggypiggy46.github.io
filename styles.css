@@ -2,7 +2,7 @@
 
 /* diagnostic styling */
 * {
-    outline: 2px solid rgb(37, 156, 236);
+    outline: .5px solid rgb(37, 156, 236);
   }
   
   /* layout */
@@ -13,6 +13,7 @@
     height: 100vh;
     font-family: 'Satoshi', sans-serif;
     align-items: center;
+   
   }
   
   /* scene */
@@ -70,3 +71,7 @@
     object-fit: cover;
   }
   
+
+  h1{
+    text-align: center;
+  }

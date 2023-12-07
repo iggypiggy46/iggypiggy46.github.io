@@ -1,8 +1,8 @@
 @import "https://unpkg.com/open-props";
 
 /* diagnostic styling */
-* {
-    outline: .5px solid rgb(37, 156, 236);
+.face  {
+    outline: 2px solid rgb(37, 156, 236);
   }
   
   /* layout */
@@ -13,7 +13,7 @@
     height: 100vh;
     font-family: 'Satoshi', sans-serif;
     align-items: center;
-   
+    background-image: url(https://images.unsplash.com/photo-1682686581312-506a8b53190e?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   }
   
   /* scene */
@@ -30,7 +30,8 @@
     width: 100%;
     height: 100%;
     position: relative;
-  
+    box-shadow: var(--shadow-6);
+
     cursor: pointer;
     transition: transform 0.5s;
   
